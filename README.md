@@ -10,5 +10,4 @@ Linky:
 
 * [Kviz 1](https://docs.google.com/presentation/d/1FV86r6A9lFKGlOgLvvGQ7HJvTcH-GQmBFE1115u8pCE/edit?usp=sharing)
 
-* Kviz 2 (Objekt):
-bude prist...
+* [Kviz 2 (Objekt)](https://docs.google.com/presentation/d/1QlmslC0eKleYJO3DQLA-ZMV-jmC6ydkrbx3Xxv2AsJU/edit?usp=sharing)
