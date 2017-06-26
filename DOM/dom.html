@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>DOM</title>
+    </head>
+    <body>
+        <ul class="ul1">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+        </ul>
+        <table id="table1">
+            <thead>
+                <tr>
+                    <th>H1</th>
+                    <th>H2</th>
+                    <th>H3</th>
+                    <th>H4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>D11</td>
+                    <td>D12</td>
+                    <td>D13</td>
+                    <td>D14</td>
+                </tr>
+                <tr>
+                    <td>D21</td>
+                    <td>D22</td>
+                    <td>D23</td>
+                    <td>D24</td>
+                </tr>
+                <tr>
+                    <td>D31</td>
+                    <td>D32</td>
+                    <td>D33</td>
+                    <td>D34</td>
+                </tr>
+            <tbody>
+        </table>
+    </body>
+    <script>
+        var elements = document.querySelectorAll("#table1 td:last-child");
+        for(var i = 0; i < elements.length; i++) {
+            elements[i].style.color = "red";
+        }
+
+        document.querySelectorAll("#table1 td:last-child")[0].onclick = function(e) {
+            var value = this.parentElement.children[0].innerHTML;
+            alert(value);
+        }
+    </script>
+</html>
