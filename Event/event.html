@@ -1,0 +1,58 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div id="parent">
+            <form>
+            <!--<div id="target" style="width: 200px; height: 200px; background-color: aquamarine"></div>-->
+            <!--<button id="target">Click me!</button>-->
+            <a href="www.google.com" id="target">Click me!</a>
+            <input type="text" />
+            </form>
+        </div>
+    </body>
+    <script>
+        document.querySelector("#target").addEventListener("click", function(e) {
+            console.log(this);
+            console.log("#target");
+            console.log(e);
+
+            e.preventDefault();
+        })
+
+        document.querySelector("[type]").addEventListener("keydown", function(e) {
+            console.log(e);
+            if(isNaN(e.key)) {
+                e.preventDefault();
+            }
+
+            
+        })
+
+        document.querySelector("[type]").onclick = function(e) {}
+        document.querySelector("[type]").onclick = function(e) {}
+
+        document.querySelector("#parent").addEventListener("click", function(e) {
+            console.log(this);
+            console.log("#parent");
+            console.log(e);
+
+            // e.stopPropagation();
+            // e.stopImmediatePropagation();
+        }, true)
+
+        document.querySelector("#parent").addEventListener("click", function(e) {
+            console.log(this);
+            console.log("#parent another");
+            console.log(e);
+
+
+        }, true)
+
+        document.querySelector("#parent").addEventListener("click", function(e) {
+            console.log(this);
+            console.log("#parent bubble");
+            console.log(e);
+        })
+    </script>
+</html>
