@@ -13,3 +13,5 @@ Linky:
 * [Kviz 2 (Objekt)](https://docs.google.com/presentation/d/1QlmslC0eKleYJO3DQLA-ZMV-jmC6ydkrbx3Xxv2AsJU/edit?usp=sharing)
 
 * [DOM](https://docs.google.com/presentation/d/1j1WicKFhj1g_irb96FVRtNkM4qA4gh84nqrmum2mIrI/edit?usp=sharing)
+
+* Komunikacia so serverom: [GitHub server-communication](https://github.com/michalgebauer/server-communication)
